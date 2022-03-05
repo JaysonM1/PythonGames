@@ -1,6 +1,6 @@
 # PythonGames
 my collection of game Im working on to practice my coding and to learn new skills
 
-I want to recreate some old games to eventually make my own 2d adventure game
+Made a blackjack game to practice oop skills
 
-Im using pygame for the most part
+planning on making more
