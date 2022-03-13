@@ -41,7 +41,7 @@ def main():
     level = 1
     lives = 5
     main_font = pygame.font.SysFont("comicsans", 50)
-
+    
     ship = Ship(300, 600)
     def redraw_window():
         Win.blit(background, (0,0))
