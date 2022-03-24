@@ -18,7 +18,8 @@ class Level:
                 y = row_index * TILESIZE
                 if column == 'x':
                     Tile((x,y), [self.visible_sprites])
-
+                if column == 'p':
+                    Player((x,y), [self.visible_sprites])
     def run(self):
         ## update and redraw
         self.visible_sprites.draw(self.display_surface)
